@@ -1,3 +1,4 @@
+//Save this file as Main.java
 class Semaphore{
     int value;
     
