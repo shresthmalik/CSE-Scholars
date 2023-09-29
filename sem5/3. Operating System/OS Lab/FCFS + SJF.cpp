@@ -41,7 +41,7 @@ int main(){
     //waiting time
     mat[0][3] = 0 ;//waiting time of 1st operation is zero
     for(int i=1;i<n;++i){
-        mat[i][3] = mat[i-1][3] + mat[i-1][2]; // WT = WTprev + BT
+        mat[i][3] = mat[i-1][3] + mat[i-1][2]; // WT = WTprev + BTprev
     }
 
     for(int i=0;i<n;++i){
