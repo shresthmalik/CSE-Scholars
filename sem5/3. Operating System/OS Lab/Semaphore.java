@@ -57,7 +57,7 @@ class Process2 extends Thread{
 }
 
 
-class HelloWorld {
+class Main {
     public static void main(String[] args) {
         Process1 p1 = new Process1();
         Process2 p2 = new Process2();
